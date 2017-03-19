@@ -1,0 +1,127 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    background: #f9f9f9
+}
+
+h4,
+p,
+input {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased
+}
+
+h4 {
+    font-size: 30px
+}
+
+a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5
+}
+
+.contentContainer {
+    width: 90%;
+    margin: 0 auto 20px;
+    padding: 10px 0;
+    text-align: center
+}
+
+.card {
+    height: 200px;
+    width: 20%;
+    min-width: 200px;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    box-shadow: 0 0 30px -20px;
+    transition: 200ms all ease-in-out
+}
+
+.card:hover {
+    cursor: pointer;
+    opacity: 0.8
+}
+
+.card .logo {
+    height: 70%;
+    width: 50%;
+    position: absolute;
+    margin: 0 auto;
+    top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4
+}
+
+.card:nth-child(1) .logo {
+    background: url(../img/npo1.svg) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(2) .logo {
+    background: url(../img/npo2.svg) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(3) .logo {
+    background: url(../img/npo3.svg) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(4) .logo {
+    background: url(../img/nos.svg) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(5) .logo {
+    background: url(../img/netflix.jpg) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(6) .logo {
+    background: url(../img/plex.png) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(7) .logo {
+    background: url(../img/youtube.png) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(8) .logo {
+    background: url(../img/caiway.png) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(9) .logo {
+    background: url(../img/photos.png) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(10) .logo {
+    background: url(../img/dognzb.png) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(11) .logo {
+    background: url(../img/sabnzbd.png) center center no-repeat;
+    background-size: contain
+}
+
+.card:nth-child(12) .logo {
+    background: url(../img/twitch.svg) center center no-repeat;
+    background-size: contain
+}
